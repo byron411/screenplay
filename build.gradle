@@ -35,4 +35,9 @@ dependencies{
 
 
 }
+configurations {
+    cucumberRuntime {
+        extendsFrom testImplementation
+    }
+}
 gradle.startParameter.continueOnFailure=true
