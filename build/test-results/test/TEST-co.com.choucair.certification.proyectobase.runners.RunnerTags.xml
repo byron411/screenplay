@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="co.com.choucair.certification.proyectobase.runners.RunnerTags" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="EC2AMAZ-7JPOIN6" time="0.0">
   <properties/>
-  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@6129a6c9
+  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@518fac1b
 
 1 Scenarios (?[33m1 undefined?[0m)
-3 Steps (?[33m3 undefined?[0m)
-0m0.430s
+3 Steps (?[33m1 undefined?[0m, ?[32m2 passed?[0m)
+0m10.206s
 
 
 You can implement missing steps with the snippets below:
-
-@Given("^than Bryan wants to learn automation at the academy Choucair$")
-public void thanBryanWantsToLearnAutomationAtTheAcademyChoucair() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-
-@When("^he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform$")
-public void heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
 
 @Then("^he finds the course called resources Recuros Automatización Bancolombia$")
 public void heFindsTheCourseCalledResourcesRecurosAutomatizaciónBancolombia() {
     // Write code here that turns the phrase above into concrete actions
     throw new PendingException();
 }
+
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 

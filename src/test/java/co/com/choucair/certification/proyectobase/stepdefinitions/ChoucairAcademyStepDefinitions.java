@@ -1,4 +1,5 @@
 package co.com.choucair.certification.proyectobase.stepdefinitions;
+import co.com.choucair.certification.proyectobase.tasks.OpenUp;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -15,7 +16,7 @@ public class ChoucairAcademyStepDefinitions {
 
     @Given("^than Bryan wants to learn automation at the academy Choucair$")
     public void thanBryanWantsToLearnAutomationAtTheAcademyChoucair() {
-
+        OnStage.theActorCalled("Bryan").wasAbleTo(OpenUp.thePage());
     }
 
 
@@ -25,7 +26,7 @@ public class ChoucairAcademyStepDefinitions {
     }
 
     @Then("^he finds the course called resources Recuros Automatización Bancolombia$")
-    public void heFindsTheCourseCalledResourcesRecurosAutomatizaciónBancolombia() {
+    public void heFindsTheCourseCalledResourcesRecurosAutomatizacionBancolombia() {
 
     }
 
