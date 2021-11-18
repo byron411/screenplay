@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="co.com.choucair.certification.proyectobase.runners.RunnerTags" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="EC2AMAZ-7JPOIN6" time="0.0">
   <properties/>
-  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@7384f9a
+  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@3b48f208
 
 ?[31mFailed scenarios:?[0m
 ?[31msrc/test/resources/features/academyChoucair.feature:6 ?[0m# Search for a automation course
 
 1 Scenarios (?[31m1 failed?[0m)
-3 Steps (?[31m1 failed?[0m, ?[33m1 undefined?[0m, ?[32m1 passed?[0m)
-0m20.787s
+3 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m1 passed?[0m)
+0m24.361s
 
 net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1149)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1229)
 	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$HqrPagDG.performAs$accessor$7mhIPa5R(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$UpJ1fokB.performAs$accessor$jBqxc9af(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -26,12 +26,12 @@ net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expect
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$HqrPagDG.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$UpJ1fokB.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at co.com.choucair.certification.proyectobase.tasks.Search.performAs(Search.java:22)
-	at co.com.choucair.certification.proyectobase.tasks.Search$ByteBuddy$VpMGnBit.performAs$accessor$Rth7zkKV(Unknown Source)
+	at co.com.choucair.certification.proyectobase.tasks.Search.performAs(Search.java:23)
+	at co.com.choucair.certification.proyectobase.tasks.Search$ByteBuddy$trUUHJcA.performAs$accessor$k1VhQ5On(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -42,11 +42,11 @@ net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expect
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at co.com.choucair.certification.proyectobase.tasks.Search$ByteBuddy$VpMGnBit.performAs(Unknown Source)
+	at co.com.choucair.certification.proyectobase.tasks.Search$ByteBuddy$trUUHJcA.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(ChoucairAcademyStepDefinitions.java:27)
+	at co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(ChoucairAcademyStepDefinitions.java:29)
 	at ?.he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform(src/test/resources/features/academyChoucair.feature:8)
 Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //div[@id='universidad']//strong to be enabled (tried for 5 second(s) with 100 milliseconds interval)
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
@@ -55,7 +55,7 @@ Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: wait
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1229)
 	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$HqrPagDG.performAs$accessor$7mhIPa5R(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$UpJ1fokB.performAs$accessor$jBqxc9af(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -66,12 +66,12 @@ Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: wait
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$HqrPagDG.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$UpJ1fokB.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at co.com.choucair.certification.proyectobase.tasks.Search.performAs(Search.java:22)
-	at co.com.choucair.certification.proyectobase.tasks.Search$ByteBuddy$VpMGnBit.performAs$accessor$Rth7zkKV(Unknown Source)
+	at co.com.choucair.certification.proyectobase.tasks.Search.performAs(Search.java:23)
+	at co.com.choucair.certification.proyectobase.tasks.Search$ByteBuddy$trUUHJcA.performAs$accessor$k1VhQ5On(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -82,11 +82,11 @@ Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: wait
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at co.com.choucair.certification.proyectobase.tasks.Search$ByteBuddy$VpMGnBit.performAs(Unknown Source)
+	at co.com.choucair.certification.proyectobase.tasks.Search$ByteBuddy$trUUHJcA.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(ChoucairAcademyStepDefinitions.java:27)
+	at co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(ChoucairAcademyStepDefinitions.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -155,8 +155,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EC2AMAZ-7JPOIN6', ip: '172.31.93.231', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d8dcdd7476cdeb470a2692e3a1dc1f43
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 047f78a26476787cf96ff0e17f3db0c6
 *** Element info: {Using=xpath, value=//div[@id='universidad']//strong}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -179,16 +179,6 @@ Session ID: d8dcdd7476cdeb470a2692e3a1dc1f43
 	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 	... 98 more
-
-
-You can implement missing steps with the snippets below:
-
-
-@Then("^he finds the course called resources Recuros Automatización Bancolombia$")
-public void heFindsTheCourseCalledResourcesRecurosAutomatizaciónBancolombia() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
